@@ -1,0 +1,902 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    height: 100%;
+    width: 100vw;
+    max-height: 100%;
+}
+.p{
+    height: 70px;
+    width: 100%;
+   
+    position: relative;
+    color: rgb(77, 74, 74);
+    display: flex;
+
+}
+.p1{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(239, 243, 243);
+    position: absolute;
+    top: 15%;
+    left: 10%;
+
+}
+.p1 img{
+    height: 50px;
+    width: 200px;
+    object-fit: cover;
+}
+.p2{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: large;
+}
+.p3{
+    position: absolute;
+    top: 30%;
+    left: 57%;
+    font-size: large;
+}
+.p4{
+    position: absolute;
+    top: 30%;
+    left: 63%;
+    font-size: large;
+}
+.p5{
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    font-size: large;
+}
+.p6{
+    position: absolute;
+    top: 30%;
+    left: 78%;
+    font-size: large;
+}
+.p7{
+    position: absolute;
+    top: 18%;
+    left: 85%;
+    font-size: large;
+}
+@media screen and (max-width:968px){
+    .p{
+        height: 70px;
+        width: 100%;
+        background-color: rgb(151, 199, 31);
+        font-size: small;
+        
+    }
+    .p1{
+        height: 30px;
+        width: 120px;
+        background-color: rgb(239, 243, 243);
+        position: absolute;
+        top: 25%;
+        left: 7%;
+    
+    }
+    .p1 img{
+        height: 34px;
+        width: 120px;
+        object-fit: cover;
+    }
+    .p2{
+        position: absolute;
+        top: 39%;
+        left: 45%;
+        font-size: 100%;
+    }
+    .p3{
+        position: absolute;
+        top: 39%;
+        left: 50%;
+        font-size: 100%;
+    }
+    .p4{
+        position: absolute;
+        top: 39%;
+        left: 57%;
+        font-size: 100%;
+    }
+    .p5{
+        position: absolute;
+        top: 39%;
+        left: 67%;
+        font-size:70%;
+    }
+    .p6{
+        position: absolute;
+        top: 39%;
+        left: 77%;
+        font-size:70%;
+    }
+    .p7{
+        position: absolute;
+        top: 20%;
+        left: 85%;
+        font-size: 70%;
+    }
+    #p71{
+        height: 26px;
+         width: 100px;
+         background-color: rgb(4, 145, 91);
+         color: white;
+         border-radius: 10px;
+         font-size: 70%;
+    
+    }
+}
+.q{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+#q1{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    font-size: 350%;
+    font-weight: 800;
+}
+#q2{
+    position: absolute;
+    top: 40%;
+    left: 37%;
+    font-size: 350%;
+    font-weight: 800;
+}
+#q3{
+    position: absolute;
+    top: 52%;
+    left: 47%;
+    font-size: 350%;
+    font-weight: 800;
+}
+#q4{
+    position: absolute;
+    top: 68%;
+    left: 40%;
+    font-size: 150%;
+    font-weight: 200;
+    color: rgb(105, 98, 98);
+}
+#q5{
+    position: absolute;
+    top: 72%;
+    left: 46%;
+    font-size: 150%;
+    font-weight: 200;
+    color: rgb(105, 98, 98);
+}
+#q6{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    top: 88%;
+    left: 50%;
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media screen and (max-width:968px){
+    .q{
+        position: relative;
+        height: 500px;
+        width: 100%;
+        left: 5%;
+        display: flex;
+    }
+    #q1{
+        position: absolute;
+        top: 20%;
+        left: 24%;
+        font-size: 200%;
+        font-weight: 800;
+    }
+    #q2{
+        position: absolute;
+        top: 20%;
+        left: 35%;
+        font-size: 200%;
+        font-weight: 800;
+    }
+    #q3{
+        position: absolute;
+        top: 35%;
+        left: 45%;
+        font-size: 200%;
+        font-weight: 800;
+    }
+    #q4{
+        position: absolute;
+        top: 48%;
+        left: 30%;
+        font-size: 120%;
+        font-weight: 200;
+        color: rgb(105, 98, 98);
+    }
+    #q5{
+        position: absolute;
+        top: 52%;
+        left: 35%;
+        font-size: 120%;
+        font-weight: 200;
+        color: rgb(105, 98, 98);
+    }
+    #q6{
+        position: absolute;
+        width: 150px;
+        height: 50px;
+        top: 70%;
+        left:45%;
+        font-size: 100%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+}
+.r{
+    position: relative;
+    height: 546px;
+    width: 100%;  
+}
+@media screen and (max-width:968px){
+    .r{
+        position: relative;
+        height: 446px;
+        width: 100%;
+          
+    }
+    .r img{
+        position: absolute;
+        left: 5%;
+    }
+}
+.s{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(253, 255, 250);
+}
+#s1{
+    position: absolute;
+    align-items: center;
+    top: 5%;
+    left: 45%;
+    font-size: 200%;
+    
+}
+#s2{
+    position: absolute;
+    align-items: center;
+    width: 650px;
+    height: 250px;
+    top: 14%;
+    left: 31%;
+    font-size: 115%;
+    align-items: center;
+}
+#s3{
+    position: absolute;
+    align-items: center;
+    top: 20.5%;
+    left: 45%;
+    font-size: 115%;
+}
+.ss1{
+    position: absolute;
+    height: 380px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    top: 35%;
+    left: 29%;
+}
+#ss1{
+    position: absolute;
+    left: 25%;
+    top: 10%;
+
+}
+h2{
+    position: absolute;
+    left: 30%;
+    top: 55%;
+    font-weight: 200;
+}
+p{
+    position: absolute;
+    top: 65%;
+    text-align: center;
+}
+.ss2{
+    position: absolute;
+    height: 380px;
+    width: 250px;
+    background-color: rgb(251, 251, 251);
+    left: 44%;
+    top: 35%;
+}
+#ss2{
+    position: absolute;
+    left: 12%;
+    top: 10%;
+
+}
+.ss3{
+    position: absolute;
+    height: 380px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    left: 62%;
+    top: 35%;
+}
+#ss3{
+    position: absolute;
+    left: 12%;
+    top: 5%;
+}
+@media screen and (max-width:968px){
+    #s1{
+        position: absolute;
+        align-items: center;
+        top: 0%;
+        left: 40%;
+        font-size: 140%;
+        
+    }
+    #s2{
+        position: absolute;
+        align-items: center;
+        width: 650px;
+        height: 250px;
+        top: 10%;
+        left: 12%;
+        font-size: 115%;
+        align-items: center;
+    }
+    #s3{
+        position: absolute;
+        align-items: center;
+        top: 17.5%;
+        left: 40%;
+        font-size: 115%;
+    }
+    .ss1{
+        position: absolute;
+        height: 350px;
+        width: 200px;
+        background-color: rgb(255, 255, 255);
+        top: 35%;
+        left: 11%;
+    }
+    .ss2{
+        position: absolute;
+        height: 350px;
+        width: 200px;
+        background-color: rgb(251, 251, 251);
+        left: 34%;
+        top: 35%;
+    }
+    .ss3{
+        position: absolute;
+        height: 350px;
+        width: 200px;
+        background-color: rgb(255, 255, 255);
+        left: 62%;
+        top: 35%;
+    }
+
+}
+.t{
+    position: relative;
+    height: 1500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  
+    text-align: center;
+}
+#t1{
+    font-size: 250%;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    color: black;
+}
+.t2{
+    position: absolute;
+    width: 150px;
+    height: 300px;
+    top: 18%;
+    left: 28%;
+    color: black;
+}
+.t3{
+    position: absolute;
+    width: 150px;
+    height: 300px;
+    top: 18%;
+    left: 48%;
+    color: black;
+}
+.t4{
+    position: absolute;
+    width: 150px;
+    height: 350px;
+    top: 18%;
+    left: 68%;
+    color: black;
+}
+#tp{
+    position: absolute;
+    top: 65%;
+    text-align: center;
+    font-size: 170%;
+    
+}
+#tb{
+    position: absolute;
+    top: 65%;
+    left: 28%;
+    text-align: center;
+    font-size: 170%;
+    
+}
+.t5{
+    position: absolute;
+    width: 150px;
+    height: 300px;
+    top: 45%;
+    left: 28%;
+    color: black;
+}
+.t6{
+    position: absolute;
+    width: 150px;
+    height: 300px;
+    top: 45%;
+    left: 48%;
+    color: black;
+}
+.t6 img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    left: 1%;
+}
+.t7{
+    position: absolute;
+    width: 150px;
+    height: 300px;
+    top: 45%;
+    left: 68%;
+    color: black;
+}
+.t8{
+    position: absolute;
+    width: 150px;
+    height: 300px;
+    top: 71%;
+    left: 28%;
+    color: black;
+}
+.t9{
+    position: absolute;
+    width: 150px;
+    height: 300px;
+    top: 71%;
+    left: 48%;
+    color: black;
+}
+.t10{
+    position: absolute;
+    width: 150px;
+    height: 300px;
+    top: 71%;
+    left: 68%;
+    color: black;
+}
+#t11{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    top: 93%;
+    left: 48%;
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media screen and (max-width:968px){
+.t{
+    position: relative;
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  
+    text-align: center;
+}
+#t1{
+    font-size: 150%;
+    position: absolute;
+    top: 2%;
+    left: 30%;
+    color: black;
+}
+.t2{
+    position: absolute;
+    width: 130px;
+    height: 215px;
+    top: 10%;
+    left: 20%;
+    color: black;
+}
+.t3{
+    position: absolute;
+    width: 130px;
+    height: 215px;
+    top: 10%;
+    left: 45%;
+    color: black;
+}
+.t4{
+    position: absolute;
+    width: 130px;
+    height: 215px;
+    top: 10%;
+    left: 70%;
+    color: black;
+}
+#tb{
+    position: absolute;
+    top: 65%;
+    left: 28%;
+    text-align: center;
+    font-size: 150%;
+    
+}
+.t5{
+    position: absolute;
+    width: 130px;
+    height: 230px;
+    top: 35%;
+    left: 20%;
+    color: black;
+}
+.t6{
+    position: absolute;
+    width: 130px;
+    height: 230px;
+    top: 35%;
+    left: 45%;
+    color: black;
+}
+.t6 img{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    left: 1%;
+}
+.t7{
+    position: absolute;
+    width: 130px;
+    height: 230px;
+    top: 35%;
+    left: 70%;
+    color: black;
+}
+.t8{
+    position: absolute;
+    width: 130px;
+    height: 230px;
+    top: 55%;
+    left: 20%;
+    color: black;
+}
+.t9{
+    position: absolute;
+    width: 130px;
+    height: 230px;
+    top: 55%;
+    left: 45%;
+    color: black;
+}
+.t10{
+    position: absolute;
+    width: 130px;
+    height: 230px;
+    top: 55%;
+    left: 71%;
+    color: black;
+}
+#t11{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    top: 93%;
+    left: 48%;
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+}             
+.u{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(248, 248, 248);
+}
+#u1{
+    position: absolute;
+    font-size: 200%;
+    top: 5%;
+    left: 47%;
+}
+/* .u2{
+    position: absolute;
+    width: 500px;
+    height:100px ;
+    background-color: blue;
+    top: 10%;
+    left: 1%;
+} */
+.u2{
+    position: absolute;
+    object-fit:cover;
+    width: 47vw;
+    height: 47vh;
+    top: 21%;
+    left: 18%;
+}
+.u2 img{
+    position: absolute;
+    width: 155%;
+    height: 85%;
+    object-fit: cover;
+    
+}
+#u3{
+    color: rgb(44, 43, 43);
+    font-size: 120%;
+    position: absolute;
+    top: 75%;
+    left: 46%;
+}
+.v{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+}
+#v1{
+    font-size: 250%;
+    top: 15%;
+    left: 46%;
+    font-weight: 300;
+}
+#v2{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    font-size: 120%;
+
+}
+#v3{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    font-size: 120%;
+    border-radius: 5px;
+
+}
+#v4{
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    font-size: 120%;
+    border-radius: 5px;
+
+}
+@media screen and (max-width:968px){
+    #v1{
+        position: absolute;
+        font-size: 210%;
+        top: 15%;
+        left: 45%;
+        font-weight: 300;
+        
+    }
+    #v2{
+        position: absolute;
+        top: 35%;
+        left: 25%;
+        font-size: 90%;
+    
+    }
+    #v3{
+        width: 100px;
+        height: 35px;
+        position: absolute;
+        top: 55%;
+        left: 35%;
+        font-size: 100%;
+        border-radius: 5px;
+    
+    }
+    #v4{
+        width: 100px;
+        height: 35px;
+        position: absolute;
+        top: 55%;
+        left: 60%;
+        font-size: 100%;
+        border-radius: 5px;
+    
+    }
+}
+.w{
+    height: 300px;
+    width: 100%;
+    position: relative;
+    
+}
+  .wa{
+    position:absolute;
+    height: 300px;
+    width: 500px;
+    background-color: rgb(232, 232, 232);
+  }
+  #wa1{
+    position: absolute;
+    top: 15%;
+    left: 25%;
+  }
+  #wa2{
+    position: absolute;
+    top: 38%;
+    left: 25%;
+    font-size: 120%;
+  }
+  #wa3{
+    position: absolute;
+    top: 59%;
+    left: 10%;
+    font-size: 120%;
+  }
+  .wb{
+    position:absolute;
+    height: 300px;
+    width: 200px;
+    left: 38%;
+  }
+  #wb1{
+    position: absolute;
+    top: 15%;
+    font-size: 120%;
+  }
+  #wb2{
+    position: absolute;
+    top: 25%;
+    font-size: 120%;
+  }
+  #wb3{
+    position: absolute;
+    top: 35%;
+    font-size: 120%;
+  }
+  #wb4{
+    position: absolute;
+    top: 45%;
+    font-size: 120%;
+  }
+  .wc{
+    position:absolute;
+    height: 300px;
+    width: 200px;
+    left: 50%;
+  }
+  .wd{
+    position:absolute;
+    height: 300px;
+    width: 200px;
+    left: 62%;
+  }
+  .we{
+    position:absolute;
+    height: 300px;
+    width: 200px;
+    left: 74%;
+  }
+  @media screen and (max-width:968px){
+    .wa{
+        position:absolute;
+        height: 300px;
+        width: 200px;
+        background-color: rgb(232, 232, 232);
+      }
+      #wa1{
+        position: absolute;
+        top: 1%;
+        left: 25%;
+        height: 30px;
+        
+
+      }
+      .wa1 img{
+        height: 25px;
+        width: 300px;
+        object-fit: cover;
+      }
+      #wa2{
+        position: absolute;
+        top: 15%;
+        left: 25%;
+        font-size: 100%;
+      }
+      #wa3{
+        position: absolute;
+        top: 45%;
+        left: 25%;
+        font-size: 100%;
+        height: 25px;
+      }
+      .wb{
+        position:absolute;
+        height: 300px;
+        width: 100px;
+        left: 40%;
+       
+      }
+      #wb1{
+        position: absolute;
+        top: 15%;
+        font-size: 100%;
+      }
+      #wb2{
+        position: absolute;
+        top: 25%;
+        font-size: 100%;
+      }
+      #wb3{
+        position: absolute;
+        top: 35%;
+        font-size: 100%;
+      }
+      #wb4{
+        position: absolute;
+        top: 45%;
+        font-size: 100%;
+      }
+      h3{
+        font-size: 100%;
+      }
+      .wc{
+        position:absolute;
+        height: 300px;
+        width: 100px;
+        left: 55%;
+      }
+      .wd{
+        position:absolute;
+        height: 300px;
+        width: 100px;
+        left: 72%;
+      }
+      .we{
+        position:absolute;
+        height: 300px;
+        width: 100px;
+        left: 90%;
+      }
+  }
